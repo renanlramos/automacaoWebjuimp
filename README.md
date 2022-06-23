@@ -6,7 +6,6 @@ Automação WEBJUMP!
     Navegue até a pasta que deseja salvar localmente seu projeto e digite o seguinte comando no terminal:
         git clone https://github.com/renanlramos/automacaoWebjump.git
 
-
 ⚙Instalações e configurações necessárias:
     Baixar o Visual Studio Code (VSCODE)
         https://code.visualstudio.com/
