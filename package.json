@@ -1,0 +1,24 @@
+{
+  "name": "automacaowebjump",
+  "version": "1.0.0",
+  "description": "projeto automacao webjump",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanlramos/automacaoWebjump.git"
+  },
+  "author": "Renan Ramos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renanlramos/automacaoWebjump/issues"
+  },
+  "homepage": "https://github.com/renanlramos/automacaoWebjump#readme",
+  "devDependencies": {
+    "cypress": "^10.2.0",
+    "cypress-iframe": "^1.0.1",
+    "install": "^0.13.0"
+  }
+}
