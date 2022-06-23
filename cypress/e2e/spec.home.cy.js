@@ -3,29 +3,43 @@ import home from '../pages/homePage'
 describe('CT001', function() {
 
   before(function(){
+
     home.go()
+
   })
 
-  it('clicar nos botões "One", "Two, "Four" e verificiar ausência dos mesmos', function()  {
+  it('clicar nos botões "One", "Two, "Four"', function()  {
 
     home.selectFirstButtonGroup('one', 'two', 'link')
+
+  })
+
+  it('e verificiar ausência dos mesmos', function()  {
+
     home.clickedButtonsFirstDisplayNone('one', 'two', 'link')
 
   })
   
-  it('clique nos botões "One", "Two" e "Four" que encontram-se dentro do painel "IFRAME BUTTONS" e valide a não-presença dos mesmos', function(){
+  it('clique nos botões "One", "Two" e "Four" do painel "IFRAME BUTTONS"', function(){
 
       home.selectSecondButtonGroup('one', 'two', 'link')
-      home.clickedButtonsSecondDisplayNone('one', 'two', 'link')
 
   })
+
+  it('e valide a não-presença dos mesmos', function(){
+
+    home.clickedButtonsSecondDisplayNone('one', 'two', 'link')
+
+})
 
 })
 
 describe('CT002', function(){
 
   before(function(){
+
     home.go()
+
   })
 
   it('preencher o campo "YourFirstName"', function(){
